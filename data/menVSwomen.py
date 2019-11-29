@@ -4,11 +4,8 @@ import numpy as np
 import pandas as pd
  
 
-m_1998 = 0
-m_2002 = 0
-m_2006 = 0
-m_2010 = 0
-m_2014 = 0
+m_men = 0
+m_women = 0
 
 categories = []
 
@@ -24,7 +21,7 @@ with open ('curlingData.csv') as csvfile:
 			line_count += 1
 
 # Data
-df=pd.DataFrame({'x': range(1,11), 'y1': np.random.randn(10), 'y2': np.random.randn(10)+range(1,11), 'y3': np.random.randn(10)+range(11,21) })
+df=pd.DataFrame({'x': range(1,11), 'y1': np.random.randn(10), 'y2': np.random.randn(10)+range(1,11)})
  
 # multiple line plot
 plt.plot( 'x', 'y1', data=df, marker='', color='skyblue', linewidth=4)
