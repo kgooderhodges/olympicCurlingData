@@ -7,7 +7,7 @@ bronzes = []
 
 categories = []
 
-with open ('curlingData.csv') as csvfile:
+with open ('OlympicsWinter.csv') as csvfile:
 	reader = csv.reader(csvfile)
 
 	line_count = 0
@@ -27,7 +27,7 @@ with open ('curlingData.csv') as csvfile:
 				silvers.append(row[7])
 
 			if row[7] == 'Bronze':
-				print('Won Bronze... well we tried')
+				print('Won Bronze')
 				bronzes.append(row[7])
 
 			line_count +=1
