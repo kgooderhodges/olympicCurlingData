@@ -3,11 +3,7 @@
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-<<<<<<< HEAD
 	font-size: 18px;
-=======
-	font-size: 12px;
->>>>>>> 895255a981f17f090a91a6682d4a432d3f28dcc5
 	color: #333;
 }
 
@@ -36,10 +32,6 @@ body {
 }
 
 #contentCon p {
-<<<<<<< HEAD
-=======
-	line-height: 430px;
->>>>>>> 895255a981f17f090a91a6682d4a432d3f28dcc5
 	background-color: #efefef;
 	padding: 20px;
 }
@@ -57,26 +49,13 @@ body {
 	padding: 20px;
 }
 
-<<<<<<< HEAD
 .content3 {
-=======
-.content2 {
->>>>>>> 895255a981f17f090a91a6682d4a432d3f28dcc5
 	margin-left: auto;
 	width: 440px;
 	background-color: #ccc;
 	padding: 20px;
 }
 
-<<<<<<< HEAD
 .imgWrap{
 	width:410px;
 }
-=======
-.content3 {
-	margin-left: auto;
-	width: 440px;
-	background-color: #ccc;
-	padding: 20px;
-}
->>>>>>> 895255a981f17f090a91a6682d4a432d3f28dcc5
