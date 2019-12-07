@@ -1,1 +1,61 @@
-sGHJKL
+@charset "UTF-8";
+
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+
+.backgroundImg {
+	background: url("../images/mountains.jpg") no-repeat;
+	background-attachment: fixed;
+}
+
+.hidden {
+	display: none;
+}
+
+#siteContainer {
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainBanner {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+
+#contentCon p {
+	background-color: #efefef;
+	padding: 20px;
+}
+
+.content1 {
+	width: 440px;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+.content2 {
+	margin-left: auto;
+	width: 440px;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+.content3 {
+	margin-left: auto;
+	width: 440px;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+.imgWrap{
+	width:410px;
+}
